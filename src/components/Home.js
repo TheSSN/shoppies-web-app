@@ -1,10 +1,9 @@
 import React from "react";
+import MovieList from "./MovieList";
 
 function Home() {
   return (
-    <React.Fragment>
-      <h1>Home</h1>
-    </React.Fragment>
+    <MovieList />
   );
 }
 

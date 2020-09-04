@@ -9,18 +9,16 @@ import About from "./components/About"
 
 function App() {
   return (
-    <React.Fragment>
-      <Router>
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-          </Switch>
-      </Router>
-    </React.Fragment>
+    <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 
