@@ -5,14 +5,14 @@ import Button from "react-bootstrap/Button";
 
 function MovieCard(props) {
   return (
-    <Col md={3}>
+    <Col sm={12} md={6} lg={4}>
       <Card>
         <Card.Img variant="top" src={props.poster} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">{props.year}</Card.Subtitle>
-          <Button variant="primary">Nominate</Button>
+          <Card.Subtitle className="text-muted">{props.year}</Card.Subtitle>
         </Card.Body>
+        <Button variant="primary" className="align-self-center mb-3" style={{width: 100}}>Nominate</Button>
       </Card>
     </Col>
   );

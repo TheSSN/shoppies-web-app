@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 
 function About() {
   return (
-    <Container>
+    <Container className="border">
       
     </Container>
   );
