@@ -116,7 +116,7 @@ class Nominations extends React.Component {
     const prevIsFull = (prevNominationEntries !== null && prevNominationEntries.length === 5);
 
     this.setState({
-      nominationEntries: prevNominationEntries,
+      nominationEntries: prevNominationEntries === null ? [] : prevNominationEntries,
       isFull: prevIsFull
     });
   }
