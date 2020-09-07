@@ -113,7 +113,7 @@ class Nominations extends React.Component {
 
   componentDidMount() {
     const prevNominationEntries = JSON.parse(localStorage.getItem("nominationsList"));
-    const prevIsFull = prevNominationEntries.length === 5;
+    const prevIsFull = (prevNominationEntries !== null && prevNominationEntries.length === 5);
 
     this.setState({
       nominationEntries: prevNominationEntries,
