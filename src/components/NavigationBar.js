@@ -20,7 +20,6 @@ function NavigationBar() {
         <Nav className="mr-auto">
           <Nav.Link href="/home">Home</Nav.Link>
           <Nav.Link href="/nominations">Nominations</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
