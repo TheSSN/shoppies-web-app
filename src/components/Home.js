@@ -1,31 +1,23 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import SearchBar from "./SearchBar";
-import MovieList from "./MovieList";
-import NominationList from "./NominationList";
-
-import data from "./TempDB";
+import Jumbotron from "react-bootstrap/Jumbotron";
+import Button from "react-bootstrap/Button";
 
 function Home() {
-  const searchEntries = data.Search;
-  const nominationEntries = data.Search;
-
-  return (
-    <Container>
-      <h2 className="mt-3">The Shoppies</h2>
-      <SearchBar />
-      <Row>
-        <Col md={6}>
-          <MovieList entries={searchEntries} />
-        </Col>
-        <Col md={6}>
-          <NominationList entries={nominationEntries}/>
-        </Col>
-      </Row>
-    </Container>
-  );
+    return (
+      <Container>
+        <Jumbotron className="mt-3">
+          <h1>Welcome to <i>The Shoppies</i>!</h1>
+          <p>
+            Shopify's new annual movie awards are under way and we need <b>YOUR</b> help to choose the best
+            movies of all time. Select 5 movies of your choice to nominate for the awards and show your support!
+          </p>
+          <p>
+            <Button variant="primary" href="/nominations">My Nominations</Button>
+          </p>
+        </Jumbotron>
+      </Container>
+    );
 }
 
 export default Home;

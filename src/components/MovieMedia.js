@@ -11,7 +11,13 @@ function MovieMedia(props) {
           <h5>{props.title}</h5>
           <p>{props.year}</p>
         </Media.Body>
-        <Button variant="danger" size="sm" className="align-self-center">Remove</Button>
+        <Button variant="danger"
+          onClick={() => props.handleRemove(props.imdbID)}
+          size="sm"
+          className="align-self-center"
+        >
+          Remove
+        </Button>
       </Media>
       <hr />
     </React.Fragment>
