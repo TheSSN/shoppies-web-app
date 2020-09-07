@@ -85,7 +85,7 @@ class Nominations extends React.Component {
       isLoading: true
     });
 
-    fetch("http://www.omdbapi.com/?apikey=d06df189&type=movie&s=" + encodeURIComponent(searchTerm))
+    fetch("https://www.omdbapi.com/?apikey=d06df189&type=movie&s=" + encodeURIComponent(searchTerm))
       .then(response => response.json())
       .then(data => {
         if (data.Response === "True") {
