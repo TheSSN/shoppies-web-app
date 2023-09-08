@@ -1,6 +1,5 @@
 # Shoppies Web Application \[OLD\]
 Sample website made for a Shopify coding challenge.<br />
-Currently hosted using Google Firebase at: [shuravan.com](https://shuravan.com/home)
 
 ## Installation
 Download the latest version of [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) (this is the package manager used in the project)
