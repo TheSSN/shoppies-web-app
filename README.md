@@ -1,4 +1,4 @@
-# Shoppies Web Application
+# Shoppies Web Application \[OLD\]
 Sample website made for a Shopify coding challenge.<br />
 Currently hosted using Google Firebase at: [shuravan.com](https://shuravan.com/home)
 
