@@ -8,7 +8,7 @@ Download the latest version of [Yarn](https://classic.yarnpkg.com/en/docs/instal
 Clone the repository into your local machine using `https://github.com/TheSSN/shoppies-web-app.git`
 
 ### Setup
-> Install project dependencies
+Install project dependencies
 ```shell
 $ yarn install
 ```
