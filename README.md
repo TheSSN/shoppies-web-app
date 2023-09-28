@@ -1,19 +1,24 @@
 # Shoppies Web Application \[OLD\]
+
 Sample website made for a Shopify coding challenge.<br />
 
 ## Installation
+
 Download the latest version of [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) (this is the package manager used in the project)
 
 ### Clone
+
 Clone the repository into your local machine using `https://github.com/TheSSN/shoppies-web-app.git`
 
 ### Setup
+
 Install project dependencies
 ```shell
 $ yarn install
 ```
 
 ## Useful Commands
+
 In the project directory, you can run:
 
 ### `yarn start`
